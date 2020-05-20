@@ -11,6 +11,22 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="DoctorsController.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200520204332_CreateDataBase.cs" t="Include" />
+          <e p="20200520204332_CreateDataBase.Designer.cs" t="Include" />
+          <e p="PrescDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Doctor.cs" t="Include" />
+          <e p="Medicament.cs" t="Include" />
+          <e p="Patient.cs" t="Include" />
+          <e p="PrescDbContext.cs" t="Include" />
+          <e p="Prescription.cs" t="Include" />
+          <e p="PrescriptionMedicament.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
